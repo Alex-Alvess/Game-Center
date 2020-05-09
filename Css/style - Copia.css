@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: greenyellow;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+
+
+.fakeimg {
+    width: 80%;
+    height: 100%;
+
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    margin-top: 20px;
+    padding: 40px;
+    width: 50%;
+    color: black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: greenyellow;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+body.Home {
+    background: rgb(255, 255, 255) url('../imagens/fundo.jpg') repeat-y scroll top center;
+    background-size: cover;
+    font: 13pt Arial;
+    color: whitesmoke
+}
+
+body.CBP {
+    background: rgb(255, 255, 255) url('../imagens/fundoCP.webp') repeat-y scroll top center;
+    background-size: cover;
+    font: 13pt Arial;
+    color: darkorange
+}
+
+body.TLOU {
+    background: rgb(255, 255, 255) url('../imagens/fundoTLOU2.webp') repeat-y scroll top center;
+    background-size: cover;
+    font: 13pt Arial;
+    color: black
+}
+
+body.Tsushima {
+    background: rgb(255, 255, 255) url('../imagens/fundoTsushima.webp') repeat-y scroll top center;
+    background-size: cover;
+    font: 13pt Arial;
+    color: red
+}
+
+body.form {
+    background: rgb(255, 255, 255) url('../imagens/fundoTsushima.webp') repeat-y scroll top center;
+    background-size: cover;
+    font: 13pt Arial;
+    color: black
+}
+
+figure.desc {
+    position: relative;
+}
+
+figure.desc img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.desc figcaption {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    color: snow;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+}
+
+figure.desc:hover figcaption{
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}

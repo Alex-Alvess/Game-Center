@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamecenter - Cyberpunk 2077</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="Icone/Gamecenter2.ico" type="image/x-icon" />
+</head>
+<body class="form">
+    <div class="header">
+        <h1>Game Center</h1>
+    </div>
+    <div class="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Cyberpunk2077.html">Cyberpunk 2077</a></li>
+            <li><a href="thelastofus2.html">TLOU2</a></li>
+            <li><a href="Ghostoftsushima.html">Ghost of Tsushima</a></li>
+            <li><a class="active" href="formulario.html">Formulário</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="collumn">
+        <div class="card">
+    <form action="#" method="post">
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" style="width: 50%" value="">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+            </div>
+    
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">--</option>
+                        <option value="PR">PR</option>
+                    </select>
+                </div>
+            </fieldset>
+    
+            <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea rows="6" style="width: 60%" id="mensagem" name="mensagem"></textarea>
+            </div>
+    
+            <div class="campo">
+                <label>Newsletter</label>
+                <label>
+                    <input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter do Game Center?
+                </label>
+            </div>
+    
+            <button type="submit" name="submit">Enviar</button>
+        </fieldset>
+    </form>
+    </div>
+    </div>
+
+    <div class="footer">
+        <h2>Game Center 2020</h2>
+    </div>
+    
+</body>
+</html>
