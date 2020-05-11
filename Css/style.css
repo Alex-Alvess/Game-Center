@@ -28,7 +28,7 @@ body.form, input, select, textarea, button {
 
 .campo label {
     margin-bottom: 0.2em;
-    color: #666;
+    color: black;
     display: block;
 }
 
@@ -98,35 +98,35 @@ body.CBP {
     background: rgb(255, 255, 255) url('../imagens/fundoCP.webp') repeat-y scroll top center;
     background-size: cover;
     font: 13pt Arial;
-    color: darkorange
+    color: whitesmoke
 }
 
 body.TLOU {
     background: rgb(255, 255, 255) url('../imagens/fundoTLOU2.webp') repeat-y scroll top center;
     background-size: cover;
     font: 13pt Arial;
-    color: black
+    color: whitesmoke
 }
 
 body.Tsushima {
     background: rgb(255, 255, 255) url('../imagens/fundoTsushima.webp') repeat-y scroll top center;
     background-size: cover;
     font: 13pt Arial;
-    color: red
+    color: whitesmoke
 }
 
 body.form {
     background: rgb(255, 255, 255) url('../imagens/fundoform.webp') repeat-y scroll top center;
     background-size: cover;
     font: 13pt Arial;
-    color: black
+    color: whitesmoke
 }
 
 .header {
-    background-color: greenyellow;
+    background-color: slategray;
     padding: 20px;
     text-align: center;
-    color: black;
+    color: black
 }
 
 .column {
@@ -160,7 +160,7 @@ li a:hover:not(.active) {
 }
   
 .active {
-    background-color: #4CAF50;
+    background-color: slategray;
 }
 
 .fakeimg {
@@ -172,11 +172,12 @@ li a:hover:not(.active) {
 .card {
     margin-left: auto;
     margin-right: auto;
-    background-color: greenyellow;
+    background-color: slategray;
     margin-top: 20px;
     padding: 40px;
-    width: 50%;
+    width: 60%;
     color: black;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .row:after {
@@ -194,7 +195,7 @@ li a:hover:not(.active) {
 .footer {
     padding: 20px;
     text-align: center;
-    background: greenyellow;
+    background: slategray;
     margin-top: 20px;
     color: black;
 }
